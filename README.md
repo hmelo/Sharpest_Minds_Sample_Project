@@ -18,7 +18,7 @@ I constructed a new dataset for land use classification by combining class label
 
 I chose a recent technique from Deep Learning methods called Convolutional Neural Networks (CNNs) that has been extremely successful in classification of images. Convolutional Neural Networks are inspired by biological systems and operate by extracting features through many layers of connecting neurons. Given previous work, I decided to use the popular ResNet-50 architecture, which has achieved remarkable performance across a number of datasets including winning the 1st place on the ILSVRC 2015 classification task. It consists of an input layer, and a series of convolutional, RELU layers, and pooling layers, followed by an output layer. The CNN was implemented on Keras with TensorFlow backend. The network was trained using the dataset built, and splitting the data 80/20 for testing/training purposes, and the last layer of the network was used as feature extractor. 
 
-<img src=".images/classes_examples_2.png" width="85%">
+<img src="/images/classes_examples_2.png" width="85%">
 
 ### Preliminary Results
 Classification results showed relatively good accuracies (70-80%) in classifying satellite images into one of 10 classes. 
