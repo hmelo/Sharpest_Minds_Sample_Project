@@ -12,7 +12,7 @@ For this project, I propose a new way of measuring economic development using la
 ### Data Acquisition: (found in "Getting the data.ipynb") 
 I constructed a new dataset for land use classification by combining class labels with satellite imagery. Specifically, locations (longitude/latitude) with land use class labels were acquired from the Urban Atlas, which is an open-source dataset of ~300 European cities covering 20 classes of land use. This dataset was used for establishing the ground-truth for training and testing purposes and extracting latitude/longitude coordinates of regions. Satellite images were obtained using the Google Maps Static API for the given sampling locations (latitude/longitude) as 224 × 224 images at a zoom level 17 (∼ 250m × 250m coverage per image). The final dataset consists of ∼ 20, 000 images distributed across 10 urban environment classes from 6 cities: Roma (Rome), Madrid, Berlin, Budapest, Barcelona, and Athens. This procedure was previously used by Albert et al. 2017. The dataset was split 80/20 for training and testing for classification purposes.
 
-<img src=".images/classes_examples.png" width="85%">
+<img src="/images/classes_examples.png" width="85%">
 
 ### Classification Procedures: (found in "CNN validation and analysis.ipynb") 
 
