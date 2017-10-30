@@ -23,8 +23,8 @@ I chose a recent technique from Deep Learning methods called Convolutional Neura
 ### Preliminary Results
 Classification results showed relatively good accuracies (70-80%) in classifying satellite images into one of 10 classes. 
 
-<img src=".images/classes_examples_3.png" width="85%">
-<img src=".images/performance_plot.png" width="85%">
+<img src="/images/classes_examples_3.png" width="85%">
+<img src="/images/performance_plot.png" width="85%">
 
 
 ### Proposed Follow-up 
