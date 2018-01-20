@@ -1,4 +1,4 @@
-# Data_Incubator_Project
+# Computer_Vision_Project
 
 
 ## Measuring Economic Development from Satellite Images using Deep Convolutional Neural Networks.
